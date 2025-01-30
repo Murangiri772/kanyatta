@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="er">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+     <script src="bootstrap/js/bootstrap.min.js"> </script>
+</head>
+<body>
+<form action="">
+
+    <marquee behavior="" direction=""><h1>Welcome to Kenyatta Hospital</h1></marquee>
+
+    <!----Navbar--->
+    <nav class="navbar bg-primary justify-content-end navbar-expand-lg">
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="home.html" class="nav-link text-danger">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="abut.html" class="nav-link text-light">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="service.html" class="nav-link text-light">Service</a>
+            </li>
+                <li class="nav-item">
+                <a href="profile.html" class="nav-link text-warning">Profile</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="register.html" class="nav-link text-warning">Register</a>
+            </li>
+            <li class="nav-item">
+                <a href="log in.html" class="nav-link text-danger">Log In</a>
+            </li>
+            <li class="nav-item">
+                <form action="" class="d-flex me-3">
+                    <input type="search" placeholder="search here....." class="form-control text-success">
+                    <button class="btn btn-outline-warning ms-2">search</button>
+                </form>
+            </li>
+        </ul>
+
+
+
+    </nav>
+
+    <!---End of Navbar--->
+
+
+
+<h1 class="text-center">SIgn In Here!</h1>
+
+
+           <div class="row p-3">
+                 <div class="col">
+                     <label for="em" class="form-label me-2">Email</label>
+    <input type="email" class="form-control " id="em" required="required" >
+                 </div>
+
+
+             <div class="me-5 col">
+                 <label for="pss" class="form-label me-3">Password</label>
+    <input type="password" class="form-control me-5" id="pss" required="required" >
+             </div>
+
+
+
+
+
+
+           </div>
+    <label for="ad" class="form-label mb-3">Address 1</label>
+    <input type="text" class="form-control" placeholder="1234Main 51" id="ad" required="required">
+
+    <label for="dss" class="form-label mb-3">Address 2</label>
+    <input type="text" class="form-control" id="dss" placeholder="Apartment,studio or floor" required="required">
+
+</form>
+<div class="d-flex row">
+    <div class="col">
+        <form action="">
+            <label for="ct" class="form-label">City</label>
+            <input type="text" class="form-control" id="ct">
+            <input type="checkbox" id="ctc">
+            <label for="ctc">Click to cut</label>
+            <input type="text" class="form-control mb-3 bg-info" placeholder="Sign in">
+        </form>
+
+    </div>
+    <div class="col row">
+        <form action="" >
+            <label for="st" class="form-label ">State</label>
+            <select name="" id="st" class="form-select">
+                <option value="" disabled="disabled">Choose...</option>
+                <option value="state 1">Kenya</option>
+                <option value="state 2">Tanzania</option>
+                <option value="state 3">USA</option>
+            </select>
+        </form>
+    </div>
+    <div class="col row w-25">
+        <label for="zp" class="form-label ">Zip</label>
+        <input type="text" id="zp" class="form-control">
+    </div>
+
+    
+    
+</div>
+
+
+
+
+</body>
+</html>
